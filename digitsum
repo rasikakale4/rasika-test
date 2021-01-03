@@ -1,0 +1,17 @@
+using System;  
+  public class digitsum
+   {  
+     public static void Main(string[] args)  
+      {  
+       int  A,dig_sum=0,m;         
+       Console.Write("Enter a number: ");      
+       A = int.Parse(Console.ReadLine());     
+       if(10000 < A < 10000000 )      
+       {      
+        m = A % 10;      
+        dig_sum = dig_sum + m;      
+        A = A/10;      
+       }      
+       Console.Write("Sum is= "+sum);       
+     }  
+  }  
